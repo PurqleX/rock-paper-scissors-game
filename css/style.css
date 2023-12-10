@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    color: #333;
+}
+
+#game {
+    margin: auto;
+    max-width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: white;
+    font-size: 16px;
+}
+
+#rock {
+    background-color: #4CAF50; /* Green */
+}
+
+#paper {
+    background-color: #2196F3; /* Blue */
+}
+
+#scissors {
+    background-color: #f44336; /* Red */
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Example box-shadow value */
+}
